@@ -6,7 +6,7 @@ from faker import Faker
 fake = Faker()
 
 # ============================================================================
-# MAPPING TABLES (matching your backend structure exactly)
+# MAPPING TABLES 
 # ============================================================================
 
 VEHICLE_TYPE_MAPPING = [
@@ -86,7 +86,7 @@ EXTENDED_LOCATIONS = [
 
 
 # ============================================================================
-# RIDE GENERATION FUNCTION (matches your backend exactly)
+# RIDE GENERATION FUNCTION 
 # ============================================================================
 
 def generate_YJ_ride_confirmation(origin: str = None, destination: str = None, vehicle_type: str = None, distance: float = None, duration: int = None):
